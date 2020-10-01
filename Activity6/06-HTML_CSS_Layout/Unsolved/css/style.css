@@ -18,7 +18,7 @@ body {
  The background color is `#333333`.*/
 
 header { 
-    background-color:#333333;
+    background:#333333;
 }
 
 /* `h1`
@@ -28,8 +28,10 @@ header {
 */
 h1  { 
     color : #eee;
-    font-size: 28px;
+    font-size: 28px 0;
     text-align:center;
+    margin: 0;
+    padding: 20px 0;
   }
 
 /* `h2`
@@ -71,40 +73,14 @@ h2  {
   #bio-image{
     color:red;
     float: left;
-    width: 200 px;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
   }
  
-  #par-red{
-    color:red;
-  }
-  
-  #par-blue{
-    color:blue;
-  }
-  
-  #par-green{
-    color:green;
-  }
-  
-  #par-big{font-size: xx-large;}
-  #par-tiny{font-size: xx-small;}
-  #par-center{text-align: center;}
-  #par-bold{font-weight: bold;}
-  #par-font{font-style: italic;}
-  #par-mul{
-  font-size: xx-large;
-    color:orange ;  
-    text-align:left; 
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;  
-    font-size: medium;
-  }
-  
+ 
   .container{
-    color:green;
-    text-align:left; 
-    text-transform:capitalize;
-    font-family: Arial, Helvetica, sans-serif;  
-    align-content: center;
-    font-size: x-large;
+    width: 1024px;
+    margin: 0 auto;
+  
   }
